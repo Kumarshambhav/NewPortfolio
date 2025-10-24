@@ -14,6 +14,7 @@ const DATA = {
   email: "shriyativerma1503@gmail.com",
   phone: "+91 8009768320",
   github: "https://github.com/Shriverma",
+  project: "https://www.pdffiller.com/s/FE0Xdw4Iv",
   linkedin: "https://www.linkedin.com/in/shriyati-verma-6b69982a1",
   summary:
     "I am a dedicated Civil Engineering student at MMMUT, Gorakhpur with strong technical skills in AutoCAD, C, C++, and Python. I have hands-on experience through internships at PWD in road construction and maintenance, as well as academic projects in sustainable building design and pavement life cycle assessment. I’m passionate about construction, geotechnical testing, and innovative engineering solutions.",
@@ -314,8 +315,8 @@ export default function WorldsBestPortfolio() {
                 <a href={`mailto:${DATA.email}`} className="px-4 py-2 rounded-lg bg-sky-600 text-white font-medium">
                   Contact
                 </a>
-                <a href={DATA.github} target="_blank" rel="noreferrer" className="px-4 py-2 rounded-lg border">
-                  View Code
+                <a href={DATA.project} target="_blank" rel="noreferrer" className="px-4 py-2 rounded-lg border">
+                  View Project
                 </a>
               </div>
 
